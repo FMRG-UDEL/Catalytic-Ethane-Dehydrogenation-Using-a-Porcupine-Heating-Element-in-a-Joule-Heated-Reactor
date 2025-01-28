@@ -1,0 +1,1344 @@
+# State file created:  2025/01/28 07:33:46
+# Build 23.2 2023-05-15T15:00:09.337767
+
+LIBRARY:
+  MATERIAL GROUP: Air Data
+    Group Description = Ideal gas and constant property air. Constant \
+      properties are for dry air at STP (0 C, 1 atm) and 25 C, 1 atm.
+  END
+  MATERIAL GROUP: CHT Solids
+    Group Description = Pure solid substances that can be used for conjugate \
+      heat transfer.
+  END
+  MATERIAL GROUP: Calorically Perfect Ideal Gases
+    Group Description = Ideal gases with constant specific heat capacity. \
+      Specific heat is evaluated at STP.
+  END
+  MATERIAL GROUP: Constant Property Gases
+    Group Description = Gaseous substances with constant properties. \
+      Properties are calculated at STP (0C and 1 atm). Can be combined with \
+      NASA SP-273 materials for combustion modelling.
+  END
+  MATERIAL GROUP: Constant Property Liquids
+    Group Description = Liquid substances with constant properties.
+  END
+  MATERIAL GROUP: Dry Peng Robinson
+    Group Description = Materials with properties specified using the built \
+      in Peng Robinson equation of state. Suitable for dry real gas modelling.
+  END
+  MATERIAL GROUP: Dry Redlich Kwong
+    Group Description = Materials with properties specified using the built \
+      in Redlich Kwong equation of state. Suitable for dry real gas modelling.
+  END
+  MATERIAL GROUP: Dry Soave Redlich Kwong
+    Group Description = Materials with properties specified using the built \
+      in Soave Redlich Kwong equation of state. Suitable for dry real gas \
+      modelling.
+  END
+  MATERIAL GROUP: Dry Steam
+    Group Description = Materials with properties specified using the IAPWS \
+      equation of state. Suitable for dry steam modelling.
+  END
+  MATERIAL GROUP: Gas Phase Combustion
+    Group Description = Ideal gas materials which can be use for gas phase \
+      combustion. Ideal gas specific heat coefficients are specified using \
+      the NASA SP-273 format.
+  END
+  MATERIAL GROUP: IAPWS IF97
+    Group Description = Liquid, vapour and binary mixture materials which use \
+      the IAPWS IF-97 equation of state. Materials are suitable for \
+      compressible liquids, phase change calculations and dry steam flows.
+  END
+  MATERIAL GROUP: Interphase Mass Transfer
+    Group Description = Materials with reference properties suitable for \
+      performing either Eulerian or Lagrangian multiphase mass transfer \
+      problems. Examples include cavitation, evaporation or condensation.
+  END
+  MATERIAL GROUP: Liquid Phase Combustion
+    Group Description = Liquid and homogenous binary mixture materials which \
+      can be included with Gas Phase Combustion materials if combustion \
+      modelling also requires phase change (eg: evaporation) for certain \
+      components.
+  END
+  MATERIAL GROUP: Particle Solids
+    Group Description = Pure solid substances that can be used for particle \
+      tracking
+  END
+  MATERIAL GROUP: Peng Robinson Dry Hydrocarbons
+    Group Description = Common hydrocarbons which use the Peng Robinson \
+      equation of state. Suitable for dry real gas models.
+  END
+  MATERIAL GROUP: Peng Robinson Dry Refrigerants
+    Group Description = Common refrigerants which use the Peng Robinson \
+      equation of state. Suitable for dry real gas models.
+  END
+  MATERIAL GROUP: Peng Robinson Dry Steam
+    Group Description = Water materials which use the Peng Robinson equation \
+      of state. Suitable for dry steam modelling.
+  END
+  MATERIAL GROUP: Peng Robinson Wet Hydrocarbons
+    Group Description = Common hydrocarbons which use the Peng Robinson \
+      equation of state. Suitable for condensing real gas models.
+  END
+  MATERIAL GROUP: Peng Robinson Wet Refrigerants
+    Group Description = Common refrigerants which use the Peng Robinson \
+      equation of state. Suitable for condensing real gas models.
+  END
+  MATERIAL GROUP: Peng Robinson Wet Steam
+    Group Description = Water materials which use the Peng Robinson equation \
+      of state. Suitable for condensing steam modelling.
+  END
+  MATERIAL GROUP: Real Gas Combustion
+    Group Description = Real gas materials which can be use for gas phase \
+      combustion. Ideal gas specific heat coefficients are specified using \
+      the NASA SP-273 format.
+  END
+  MATERIAL GROUP: Redlich Kwong Dry Hydrocarbons
+    Group Description = Common hydrocarbons which use the Redlich Kwong \
+      equation of state. Suitable for dry real gas models.
+  END
+  MATERIAL GROUP: Redlich Kwong Dry Refrigerants
+    Group Description = Common refrigerants which use the Redlich Kwong \
+      equation of state. Suitable for dry real gas models.
+  END
+  MATERIAL GROUP: Redlich Kwong Dry Steam
+    Group Description = Water materials which use the Redlich Kwong equation \
+      of state. Suitable for dry steam modelling.
+  END
+  MATERIAL GROUP: Redlich Kwong Wet Hydrocarbons
+    Group Description = Common hydrocarbons which use the Redlich Kwong \
+      equation of state. Suitable for condensing real gas models.
+  END
+  MATERIAL GROUP: Redlich Kwong Wet Refrigerants
+    Group Description = Common refrigerants which use the Redlich Kwong \
+      equation of state. Suitable for condensing real gas models.
+  END
+  MATERIAL GROUP: Redlich Kwong Wet Steam
+    Group Description = Water materials which use the Redlich Kwong equation \
+      of state. Suitable for condensing steam modelling.
+  END
+  MATERIAL GROUP: Soave Redlich Kwong Dry Hydrocarbons
+    Group Description = Common hydrocarbons which use the Soave Redlich Kwong \
+      equation of state. Suitable for dry real gas models.
+  END
+  MATERIAL GROUP: Soave Redlich Kwong Dry Refrigerants
+    Group Description = Common refrigerants which use the Soave Redlich Kwong \
+      equation of state. Suitable for dry real gas models.
+  END
+  MATERIAL GROUP: Soave Redlich Kwong Dry Steam
+    Group Description = Water materials which use the Soave Redlich Kwong \
+      equation of state. Suitable for dry steam modelling.
+  END
+  MATERIAL GROUP: Soave Redlich Kwong Wet Hydrocarbons
+    Group Description = Common hydrocarbons which use the Soave Redlich Kwong \
+      equation of state. Suitable for condensing real gas models.
+  END
+  MATERIAL GROUP: Soave Redlich Kwong Wet Refrigerants
+    Group Description = Common refrigerants which use the Soave Redlich Kwong \
+      equation of state. Suitable for condensing real gas models.
+  END
+  MATERIAL GROUP: Soave Redlich Kwong Wet Steam
+    Group Description = Water materials which use the Soave Redlich Kwong \
+      equation of state. Suitable for condensing steam modelling.
+  END
+  MATERIAL GROUP: Soot
+    Group Description = Solid substances that can be used when performing \
+      soot modelling
+  END
+  MATERIAL GROUP: User
+    Group Description = Materials that are defined by the user
+  END
+  MATERIAL GROUP: Water Data
+    Group Description = Liquid and vapour water materials with constant \
+      properties. Can be combined with NASA SP-273 materials for combustion \
+      modelling.
+  END
+  MATERIAL GROUP: Wet Peng Robinson
+    Group Description = Materials with properties specified using the built \
+      in Peng Robinson equation of state. Suitable for wet real gas modelling.
+  END
+  MATERIAL GROUP: Wet Redlich Kwong
+    Group Description = Materials with properties specified using the built \
+      in Redlich Kwong equation of state. Suitable for wet real gas modelling.
+  END
+  MATERIAL GROUP: Wet Soave Redlich Kwong
+    Group Description = Materials with properties specified using the built \
+      in Soave Redlich Kwong equation of state. Suitable for wet real gas \
+      modelling.
+  END
+  MATERIAL GROUP: Wet Steam
+    Group Description = Materials with properties specified using the IAPWS \
+      equation of state. Suitable for wet steam modelling.
+  END
+  MATERIAL: Air Ideal Gas
+    Material Description = Air Ideal Gas (constant Cp)
+    Material Group = Air Data, Calorically Perfect Ideal Gases
+    Option = Pure Substance
+    Thermodynamic State = Gas
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Molar Mass = 28.96 [kg kmol^-1]
+        Option = Ideal Gas
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 1.0044E+03 [J kg^-1 K^-1]
+        Specific Heat Type = Constant Pressure
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Pressure = 1 [atm]
+        Reference Specific Enthalpy = 0. [J/kg]
+        Reference Specific Entropy = 0. [J/kg/K]
+        Reference Temperature = 25 [C]
+      END
+      DYNAMIC VISCOSITY:
+        Dynamic Viscosity = 1.831E-05 [kg m^-1 s^-1]
+        Option = Value
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 2.61E-2 [W m^-1 K^-1]
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 0.01 [m^-1]
+        Option = Value
+      END
+      SCATTERING COEFFICIENT:
+        Option = Value
+        Scattering Coefficient = 0.0 [m^-1]
+      END
+      REFRACTIVE INDEX:
+        Option = Value
+        Refractive Index = 1.0 [m m^-1]
+      END
+    END
+  END
+  MATERIAL: Air at 25 C
+    Material Description = Air at 25 C and 1 atm (dry)
+    Material Group = Air Data, Constant Property Gases
+    Option = Pure Substance
+    Thermodynamic State = Gas
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 1.185 [kg m^-3]
+        Molar Mass = 28.96 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 1.0044E+03 [J kg^-1 K^-1]
+        Specific Heat Type = Constant Pressure
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Pressure = 1 [atm]
+        Reference Specific Enthalpy = 0. [J/kg]
+        Reference Specific Entropy = 0. [J/kg/K]
+        Reference Temperature = 25 [C]
+      END
+      DYNAMIC VISCOSITY:
+        Dynamic Viscosity = 1.831E-05 [kg m^-1 s^-1]
+        Option = Value
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 2.61E-02 [W m^-1 K^-1]
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 0.01 [m^-1]
+        Option = Value
+      END
+      SCATTERING COEFFICIENT:
+        Option = Value
+        Scattering Coefficient = 0.0 [m^-1]
+      END
+      REFRACTIVE INDEX:
+        Option = Value
+        Refractive Index = 1.0 [m m^-1]
+      END
+      THERMAL EXPANSIVITY:
+        Option = Value
+        Thermal Expansivity = 0.003356 [K^-1]
+      END
+    END
+  END
+  MATERIAL: Aluminium
+    Material Group = CHT Solids, Particle Solids
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 2702 [kg m^-3]
+        Molar Mass = 26.98 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 9.03E+02 [J kg^-1 K^-1]
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Specific Enthalpy = 0 [J/kg]
+        Reference Specific Entropy = 0 [J/kg/K]
+        Reference Temperature = 25 [C]
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 237 [W m^-1 K^-1]
+      END
+    END
+  END
+  MATERIAL: Ceramic
+    Material Group = User
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 0.705 [g cm^-3]
+        Molar Mass = 1.0 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 1210 [J kg^-1 K^-1]
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 2.1 [W m^-1 K^-1]
+      END
+    END
+  END
+  MATERIAL: Copper
+    Material Group = CHT Solids, Particle Solids
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 8933 [kg m^-3]
+        Molar Mass = 63.55 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 3.85E+02 [J kg^-1 K^-1]
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Specific Enthalpy = 0 [J/kg]
+        Reference Specific Entropy = 0 [J/kg/K]
+        Reference Temperature = 25 [C]
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 401.0 [W m^-1 K^-1]
+      END
+    END
+  END
+  MATERIAL: FeCrAl
+    Material Group = User
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 7.1 [g cm^-3]
+        Molar Mass = 53.381895 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 460 [J kg^-1 K^-1]
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Temperature = 20 [C]
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 11 [W m^-1 K^-1]
+      END
+      ELECTRICAL CONDUCTIVITY:
+        Electrical Conductivity = -6E-15[S/m/K^6]*(T^6) - \
+          9E-11[S/m/K^5]*(T^5) + 5E-07[S/m/K^4]*(T^4) - 0.0008[S/m/K^3]*(T^3) \
+          + 0.5279[S/m/K^2]*(T^2) - 143.71[S/m/K]*T + 703015[S/m]
+        Option = Value
+      END
+    END
+  END
+  MATERIAL: He
+    Material Description = Helium He
+    Material Group = Gas Phase Combustion
+    Option = Pure Substance
+    Thermodynamic State = Gas
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Molar Mass = 4.00 [kg kmol^-1]
+        Option = Ideal Gas
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = NASA Format
+        LOWER INTERVAL COEFFICIENTS:
+          NASA a1 = 0.02500000E+02 []
+          NASA a2 = 0.00000000E+00 [K^-1]
+          NASA a3 = 0.00000000E+00 [K^-2]
+          NASA a4 = 0.00000000E+00 [K^-3]
+          NASA a5 = 0.00000000E+00 [K^-4]
+          NASA a6 = -0.07453750E+04 [K]
+          NASA a7 = 0.09153488E+01 []
+        END
+        TEMPERATURE LIMITS:
+          Lower Temperature = 300 [K]
+          Midpoint Temperature = 1000 [K]
+          Upper Temperature = 5000 [K]
+        END
+        UPPER INTERVAL COEFFICIENTS:
+          NASA a1 = 0.02500000E+02 []
+          NASA a2 = 0.00000000E+00 [K^-1]
+          NASA a3 = 0.00000000E+00 [K^-2]
+          NASA a4 = 0.00000000E+00 [K^-3]
+          NASA a5 = 0.00000000E+00 [K^-4]
+          NASA a6 = -0.07453750E+04 [K]
+          NASA a7 = 0.09153489E+01 []
+        END
+      END
+      REFERENCE STATE:
+        Option = NASA Format
+        Reference Pressure = 1 [atm]
+        Reference Temperature = 25 [C]
+      END
+      TABLE GENERATION:
+        Maximum Absolute Pressure = 2 [atm]
+        Maximum Temperature = 3000 [K]
+        Minimum Absolute Pressure = 0 [atm]
+        Minimum Temperature = 100 [K]
+      END
+      DYNAMIC VISCOSITY:
+        Option = Kinetic Theory Model
+        DYNAMIC VISCOSITY MODEL:
+          Critical Volume = 57 [cm^3 mol^-1]
+          Option = Rigid Non Interacting Sphere
+        END
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Kinetic Theory Model
+        THERMAL CONDUCTIVITY MODEL:
+          Option = Modified Eucken
+        END
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 1.0 [m^-1]
+        Option = Value
+      END
+      SCATTERING COEFFICIENT:
+        Option = Value
+        Scattering Coefficient = 0.0 [m^-1]
+      END
+      REFRACTIVE INDEX:
+        Option = Value
+        Refractive Index = 1.0 [m m^-1]
+      END
+    END
+  END
+  MATERIAL: Quartz
+    Material Group = User
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 2200 [kg m^-3]
+        Molar Mass = 1.0 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 670 [J kg^-1 K^-1]
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 1.4 [W m^-1 K^-1]
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 5 [m^-1]
+        Option = Value
+      END
+      SCATTERING COEFFICIENT:
+        Option = Value
+        Scattering Coefficient = 0. [m^-1]
+      END
+      REFRACTIVE INDEX:
+        Option = Value
+        Refractive Index = 1.45
+      END
+    END
+  END
+  MATERIAL: Soot
+    Material Group = Soot
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 2000 [kg m^-3]
+        Molar Mass = 12 [kg kmol^-1]
+        Option = Value
+      END
+      REFERENCE STATE:
+        Option = Automatic
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 0 [m^-1]
+        Option = Value
+      END
+    END
+  END
+  MATERIAL: Steel
+    Material Group = CHT Solids, Particle Solids
+    Option = Pure Substance
+    Thermodynamic State = Solid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 7854 [kg m^-3]
+        Molar Mass = 55.85 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 4.34E+02 [J kg^-1 K^-1]
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Specific Enthalpy = 0 [J/kg]
+        Reference Specific Entropy = 0 [J/kg/K]
+        Reference Temperature = 25 [C]
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 60.5 [W m^-1 K^-1]
+      END
+    END
+  END
+  MATERIAL: Water
+    Material Description = Water (liquid)
+    Material Group = Water Data, Constant Property Liquids
+    Option = Pure Substance
+    Thermodynamic State = Liquid
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Density = 997.0 [kg m^-3]
+        Molar Mass = 18.02 [kg kmol^-1]
+        Option = Value
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 4181.7 [J kg^-1 K^-1]
+        Specific Heat Type = Constant Pressure
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Pressure = 1 [atm]
+        Reference Specific Enthalpy = 0.0 [J/kg]
+        Reference Specific Entropy = 0.0 [J/kg/K]
+        Reference Temperature = 25 [C]
+      END
+      DYNAMIC VISCOSITY:
+        Dynamic Viscosity = 8.899E-4 [kg m^-1 s^-1]
+        Option = Value
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 0.6069 [W m^-1 K^-1]
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 1.0 [m^-1]
+        Option = Value
+      END
+      SCATTERING COEFFICIENT:
+        Option = Value
+        Scattering Coefficient = 0.0 [m^-1]
+      END
+      REFRACTIVE INDEX:
+        Option = Value
+        Refractive Index = 1.0 [m m^-1]
+      END
+      THERMAL EXPANSIVITY:
+        Option = Value
+        Thermal Expansivity = 2.57E-04 [K^-1]
+      END
+    END
+  END
+  MATERIAL: Water Ideal Gas
+    Material Description = Water Vapour Ideal Gas (100 C and 1 atm)
+    Material Group = Calorically Perfect Ideal Gases, Water Data
+    Option = Pure Substance
+    Thermodynamic State = Gas
+    PROPERTIES:
+      Option = General Material
+      EQUATION OF STATE:
+        Molar Mass = 18.02 [kg kmol^-1]
+        Option = Ideal Gas
+      END
+      SPECIFIC HEAT CAPACITY:
+        Option = Value
+        Specific Heat Capacity = 2080.1 [J kg^-1 K^-1]
+        Specific Heat Type = Constant Pressure
+      END
+      REFERENCE STATE:
+        Option = Specified Point
+        Reference Pressure = 1.014 [bar]
+        Reference Specific Enthalpy = 0. [J/kg]
+        Reference Specific Entropy = 0. [J/kg/K]
+        Reference Temperature = 100 [C]
+      END
+      DYNAMIC VISCOSITY:
+        Dynamic Viscosity = 9.4E-06 [kg m^-1 s^-1]
+        Option = Value
+      END
+      THERMAL CONDUCTIVITY:
+        Option = Value
+        Thermal Conductivity = 193E-04 [W m^-1 K^-1]
+      END
+      ABSORPTION COEFFICIENT:
+        Absorption Coefficient = 1.0 [m^-1]
+        Option = Value
+      END
+      SCATTERING COEFFICIENT:
+        Option = Value
+        Scattering Coefficient = 0.0 [m^-1]
+      END
+      REFRACTIVE INDEX:
+        Option = Value
+        Refractive Index = 1.0 [m m^-1]
+      END
+    END
+  END
+END
+FLOW: Flow Analysis 1
+  SOLUTION UNITS:
+    Angle Units = [rad]
+    Length Units = [m]
+    Mass Units = [kg]
+    Solid Angle Units = [sr]
+    Temperature Units = [K]
+    Time Units = [s]
+  END
+  ANALYSIS TYPE:
+    Option = Steady State
+    EXTERNAL SOLVER COUPLING:
+      Option = None
+    END
+  END
+  DOMAIN: Ceramic
+    Coord Frame = Coord 0
+    Domain Type = Solid
+    Location = B2901
+    BOUNDARY: Bottom
+      Boundary Type = WALL
+      Location = F2906.2901
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Fixed Temperature = 293.15 [K]
+          Option = Fixed Temperature
+        END
+      END
+    END
+    BOUNDARY: Default Solid Solid Interface Side 1
+      Boundary Type = INTERFACE
+      Location = F2909.2901
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Option = Conservative Interface Flux
+        END
+      END
+    END
+    BOUNDARY: Exposed to air horizontal
+      Boundary Type = WALL
+      Location = F2904.2901
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Heat Transfer Coefficient = 10 [W m^-2 K^-1]
+          Option = Heat Transfer Coefficient
+          Outside Temperature = 293.15 [K]
+        END
+      END
+      BOUNDARY SOURCE:
+        SOURCES:
+          EQUATION SOURCE: energy
+            Flux = \
+              (-3E-13[K^-4]*T^4+1E-9[K^-3]*T^3-1E-6[K^-2]*T^2+0.0002[K^-1]*T+0\
+              .8947)*5.67E-8[W m^-2 K^-4]*(293.15[K]^4-T^4)
+            Flux Coefficient = 5.67E-8[W m^-2 \
+              K^-4]*(2.4E-12[K^-4]*T^7-0.000000007[K^-3]*T^6+0.000006[K^-2]*T^\
+              5-0.001[K^-1]*T^4-3.58852*T^3+24.3[K]*T^2-16200[K^2]*T+1620000[K\
+              ^3])
+            Option = Flux
+          END
+        END
+      END
+    END
+    BOUNDARY: Exposed to air vertical
+      Boundary Type = WALL
+      Location = F2902.2901,F2903.2901,F2905.2901,F2907.2901
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Heat Transfer Coefficient = 12.5 [W m^-2 K^-1]
+          Option = Heat Transfer Coefficient
+          Outside Temperature = 293.15 [K]
+        END
+      END
+      BOUNDARY SOURCE:
+        SOURCES:
+          EQUATION SOURCE: energy
+            Flux = \
+              (-3E-13[K^-4]*T^4+1E-9[K^-3]*T^3-1E-6[K^-2]*T^2+0.0002[K^-1]*T+0\
+              .8947)*5.67E-8[W m^-2 K^-4]*(293.15[K]^4-T^4)
+            Flux Coefficient = 5.67E-8[W m^-2 \
+              K^-4]*(2.4E-12[K^-4]*T^7-0.000000007[K^-3]*T^6+0.000006[K^-2]*T^\
+              5-0.001[K^-1]*T^4-3.58852*T^3+24.3[K]*T^2-16200[K^2]*T+1620000[K\
+              ^3])
+            Option = Flux
+          END
+        END
+      END
+    END
+    DOMAIN MODELS:
+      DOMAIN MOTION:
+        Option = Stationary
+      END
+      MESH DEFORMATION:
+        Option = None
+      END
+    END
+    SOLID DEFINITION: Solid 1
+      Material = Ceramic
+      Option = Material Library
+      MORPHOLOGY:
+        Option = Continuous Solid
+      END
+    END
+    SOLID MODELS:
+      HEAT TRANSFER MODEL:
+        Option = Thermal Energy
+      END
+      THERMAL RADIATION MODEL:
+        Option = None
+      END
+    END
+  END
+  DOMAIN: Coil
+    Coord Frame = Coord 0
+    Domain Type = Solid
+    Location = B4126
+    BOUNDARY: Current Inlet
+      Boundary Type = WALL
+      Location = F4104.4126
+      BOUNDARY CONDITIONS:
+        ELECTRIC FIELD:
+          Electrical Current = 3.5[A]/area()@Current Inlet
+          Option = Flux in
+        END
+        HEAT TRANSFER:
+          Option = Adiabatic
+        END
+      END
+    END
+    BOUNDARY: Current Outlet
+      Boundary Type = WALL
+      Location = F4102.4126
+      BOUNDARY CONDITIONS:
+        ELECTRIC FIELD:
+          Option = Ground
+        END
+        HEAT TRANSFER:
+          Option = Adiabatic
+        END
+      END
+    END
+    BOUNDARY: Default Fluid Solid Interface Side 1
+      Boundary Type = INTERFACE
+      Location = \
+        F2915.4126,F2916.4126,F2919.4126,F2921.4126,F2922.4126,F2923.4126,F292\
+        6.4126,F2927.4126,F2928.4126,F2929.4126,F2930.4126,F2931.4126,F2932.41\
+        26,F2933.4126,F2934.4126,F2935.4126,F2936.4126,F2937.4126,F2938.4126,F\
+        2939.4126,F2940.4126,F2941.4126,F2942.4126,F2943.4126,F2944.4126,F2945\
+        .4126,F2946.4126,F2947.4126,F2948.4126,F2949.4126,F2950.4126,F2951.412\
+        6,F2952.4126,F2953.4126,F2954.4126,F2955.4126,F2956.4126,F2957.4126,F2\
+        958.4126,F2959.4126,F2960.4126,F2961.4126,F2962.4126,F2963.4126,F2964.\
+        4126,F2965.4126,F2966.4126,F2967.4126,F2968.4126,F2969.4126,F2970.4126\
+        ,F2971.4126,F2972.4126,F2973.4126,F2974.4126,F2975.4126,F2976.4126,F29\
+        77.4126,F2978.4126,F2979.4126,F2980.4126,F2981.4126,F2982.4126,F2983.4\
+        126,F2984.4126,F2985.4126,F2986.4126,F2987.4126,F2988.4126,F2989.4126,\
+        F2990.4126,F2991.4126,F2992.4126,F2993.4126,F2994.4126,F2995.4126,F299\
+        6.4126,F2997.4126,F2998.4126,F2999.4126,F3000.4126,F3001.4126,F3002.41\
+        26,F3003.4126,F3004.4126,F3005.4126,F3006.4126,F3007.4126,F3008.4126,F\
+        3009.4126,F3010.4126,F3011.4126,F3012.4126,F3013.4126,F3014.4126,F3015\
+        .4126,F3016.4126,F3017.4126,F3018.4126,F3019.4126,F3020.4126,F3021.412\
+        6,F3022.4126,F3023.4126,F3024.4126,F3025.4126,F3026.4126,F3027.4126,F3\
+        028.4126,F3029.4126,F3030.4126,F3031.4126,F3032.4126,F3033.4126,F3034.\
+        4126,F3035.4126,F3036.4126,F3037.4126,F3038.4126,F3039.4126,F3040.4126\
+        ,F3041.4126,F3042.4126,F3043.4126,F3044.4126,F3045.4126,F3046.4126,F30\
+        47.4126,F3048.4126,F3049.4126,F3050.4126,F3051.4126,F3052.4126,F3053.4\
+        126,F3054.4126,F3055.4126,F3056.4126,F3057.4126,F3058.4126,F3059.4126,\
+        F3060.4126,F3061.4126,F3062.4126,F3063.4126,F3064.4126,F3065.4126,F306\
+        6.4126,F3067.4126,F3068.4126,F3069.4126,F3070.4126,F3071.4126,F3072.41\
+        26,F3073.4126,F3074.4126,F3075.4126,F3076.4126,F3077.4126,F3078.4126,F\
+        3079.4126,F3080.4126,F3081.4126,F3082.4126,F3083.4126,F3084.4126,F3085\
+        .4126,F3086.4126,F3087.4126,F3088.4126,F3089.4126,F3090.4126,F3091.412\
+        6,F3092.4126,F3093.4126,F3094.4126,F3095.4126,F3096.4126,F3097.4126,F3\
+        098.4126,F3099.4126,F3100.4126,F3101.4126,F3102.4126,F3103.4126,F3104.\
+        4126,F3105.4126,F3106.4126,F3107.4126,F3108.4126,F3109.4126,F3110.4126\
+        ,F3111.4126,F3112.4126,F3113.4126,F3114.4126,F3115.4126,F3116.4126,F31\
+        17.4126,F3118.4126,F3119.4126,F3120.4126,F3121.4126,F3122.4126,F3123.4\
+        126,F3124.4126,F3125.4126,F3126.4126,F3127.4126,F3128.4126,F3129.4126,\
+        F3130.4126,F3131.4126,F3132.4126,F3133.4126,F3134.4126,F3135.4126,F313\
+        6.4126,F3137.4126,F3138.4126,F3139.4126,F3140.4126,F3141.4126,F3142.41\
+        26,F3143.4126,F3144.4126,F3145.4126,F3146.4126,F3147.4126,F3148.4126,F\
+        3149.4126,F3150.4126,F3151.4126,F3152.4126,F3153.4126,F3154.4126,F3155\
+        .4126,F3156.4126,F3157.4126,F3158.4126,F3159.4126,F3160.4126,F3161.412\
+        6,F3162.4126,F3163.4126,F3164.4126,F3165.4126,F3166.4126,F3167.4126,F3\
+        168.4126,F3169.4126,F3170.4126,F3171.4126,F3172.4126,F3173.4126,F3174.\
+        4126,F3175.4126,F3176.4126,F3177.4126,F3178.4126,F3179.4126,F3180.4126\
+        ,F3181.4126,F3182.4126,F3183.4126,F3184.4126,F3185.4126,F3186.4126,F31\
+        87.4126,F3188.4126,F3189.4126,F3190.4126,F3191.4126,F3192.4126,F3193.4\
+        126,F3194.4126,F3195.4126,F3196.4126,F3197.4126,F3198.4126,F3199.4126,\
+        F3200.4126,F3201.4126,F3202.4126,F3203.4126,F3204.4126,F3205.4126,F320\
+        6.4126,F3207.4126,F3208.4126,F3209.4126,F3210.4126,F3211.4126,F3212.41\
+        26,F3213.4126,F3214.4126,F3215.4126,F3216.4126,F3217.4126,F3218.4126,F\
+        3219.4126,F3220.4126,F3221.4126,F3222.4126,F3223.4126,F3224.4126,F3225\
+        .4126,F3226.4126,F3227.4126,F3315.4126,F3316.4126,F3317.4126,F3318.412\
+        6,F3319.4126,F3320.4126,F3321.4126,F3322.4126,F3323.4126,F3324.4126,F3\
+        325.4126,F3326.4126,F3327.4126,F3328.4126,F3329.4126,F3330.4126,F3331.\
+        4126,F3332.4126,F3333.4126,F3334.4126,F3335.4126,F3336.4126,F3337.4126\
+        ,F3338.4126,F3339.4126,F3340.4126,F3341.4126,F3342.4126,F3343.4126,F33\
+        44.4126,F3345.4126,F3346.4126,F3347.4126,F3348.4126,F3349.4126,F3350.4\
+        126,F3351.4126,F3352.4126,F3353.4126,F3354.4126,F3355.4126,F3356.4126,\
+        F3357.4126,F3358.4126,F3359.4126,F3360.4126,F3361.4126,F3362.4126,F336\
+        3.4126,F3364.4126,F3365.4126,F3366.4126,F3367.4126,F3368.4126,F3369.41\
+        26,F3370.4126,F3371.4126,F3372.4126,F3373.4126,F3374.4126,F3375.4126,F\
+        3376.4126,F3377.4126,F3378.4126,F3379.4126,F3380.4126,F3381.4126,F3382\
+        .4126,F3383.4126,F3384.4126,F3385.4126,F3386.4126,F3387.4126,F3388.412\
+        6,F3389.4126,F3390.4126,F3391.4126,F3392.4126,F3393.4126,F3394.4126,F3\
+        395.4126,F3396.4126,F3397.4126,F3398.4126,F3399.4126,F3400.4126,F3401.\
+        4126,F3402.4126,F3403.4126,F3404.4126,F3405.4126,F3406.4126,F3407.4126\
+        ,F3408.4126,F3409.4126,F3410.4126,F3411.4126,F3412.4126,F3413.4126,F34\
+        14.4126,F3415.4126,F3416.4126,F3417.4126,F3418.4126,F3419.4126,F3420.4\
+        126,F3421.4126,F3422.4126,F3423.4126,F3424.4126,F3425.4126,F3426.4126,\
+        F3427.4126,F3428.4126,F3429.4126,F3430.4126,F3431.4126,F3432.4126,F343\
+        3.4126,F3434.4126,F3435.4126,F3436.4126,F3437.4126,F3438.4126,F3439.41\
+        26,F3440.4126,F3441.4126,F3442.4126,F3443.4126,F3444.4126,F3445.4126,F\
+        3446.4126,F3447.4126,F3448.4126,F3449.4126,F3450.4126,F3451.4126,F3452\
+        .4126,F3453.4126,F3454.4126,F3455.4126,F3456.4126,F3457.4126,F3458.412\
+        6,F3459.4126,F3460.4126,F3461.4126,F3462.4126,F3463.4126,F3464.4126,F3\
+        465.4126,F3466.4126,F3467.4126,F3468.4126,F3469.4126,F3470.4126,F3471.\
+        4126,F3472.4126,F3473.4126,F3474.4126,F3475.4126,F3476.4126,F3477.4126\
+        ,F3478.4126,F3479.4126,F3480.4126,F3481.4126,F3482.4126,F3483.4126,F34\
+        84.4126,F3485.4126,F3486.4126,F3487.4126,F3488.4126,F3489.4126,F3490.4\
+        126,F3491.4126,F3492.4126,F3493.4126,F3494.4126,F3495.4126,F3496.4126,\
+        F3497.4126,F3498.4126,F3499.4126,F3500.4126,F3501.4126,F3502.4126,F350\
+        3.4126,F3504.4126,F3505.4126,F3506.4126,F3507.4126,F3508.4126,F3509.41\
+        26,F3510.4126,F3511.4126,F3512.4126,F3513.4126,F3514.4126,F3515.4126,F\
+        4019.4126,F4020.4126,F4021.4126,F4022.4126,F4023.4126,F4024.4126,F4025\
+        .4126,F4026.4126,F4027.4126,F4028.4126,F4029.4126,F4030.4126,F4031.412\
+        6,F4032.4126,F4033.4126,F4034.4126,F4035.4126,F4036.4126,F4037.4126,F4\
+        038.4126,F4039.4126,F4040.4126,F4041.4126,F4042.4126,F4043.4126,F4044.\
+        4126,F4045.4126,F4046.4126,F4047.4126,F4048.4126,F4049.4126,F4050.4126\
+        ,F4051.4126,F4052.4126,F4053.4126,F4054.4126,F4055.4126,F4056.4126,F40\
+        57.4126,F4058.4126,F4059.4126,F4060.4126,F4061.4126,F4062.4126,F4063.4\
+        126,F4064.4126,F4065.4126,F4066.4126,F4067.4126,F4068.4126,F4069.4126,\
+        F4070.4126,F4071.4126,F4072.4126,F4073.4126,F4074.4126,F4075.4126,F407\
+        6.4126,F4077.4126,F4078.4126,F4079.4126,F4080.4126,F4081.4126,F4082.41\
+        26,F4083.4126,F4084.4126,F4085.4126,F4086.4126,F4087.4126,F4088.4126,F\
+        4089.4126,F4090.4126,F4091.4126,F4092.4126,F4093.4126,F4094.4126,F4095\
+        .4126,F4096.4126,F4097.4126,F4098.4126,F4099.4126,F4100.4126,F4101.412\
+        6,F4103.4126,F4105.4126,F4106.4126,F4107.4126,F4108.4126,F4109.4126,F4\
+        110.4126,F4111.4126,F4112.4126,F4113.4126,F4114.4126,F4115.4126,F4116.\
+        4126,F4117.4126,F4118.4126,F4119.4126,F4120.4126,F4121.4126
+      BOUNDARY CONDITIONS:
+        ELECTRIC FIELD:
+          Option = Zero Flux
+        END
+        HEAT TRANSFER:
+          Option = Conservative Interface Flux
+        END
+      END
+    END
+    DOMAIN MODELS:
+      DOMAIN MOTION:
+        Option = Stationary
+      END
+      MESH DEFORMATION:
+        Option = None
+      END
+    END
+    INITIALISATION:
+      Option = Automatic
+      INITIAL CONDITIONS:
+        ELECTRIC POTENTIAL:
+          Option = Automatic
+        END
+        TEMPERATURE:
+          Option = Automatic with Value
+          Temperature = 800 [K]
+        END
+      END
+    END
+    SOLID DEFINITION: Solid 1
+      Material = FeCrAl
+      Option = Material Library
+      MORPHOLOGY:
+        Option = Continuous Solid
+      END
+    END
+    SOLID MODELS:
+      ELECTROMAGNETIC MODEL:
+        ELECTRIC FIELD MODEL:
+          Option = Electric Potential
+        END
+        MAGNETIC FIELD MODEL:
+          Option = None
+        END
+      END
+      HEAT TRANSFER MODEL:
+        Option = Thermal Energy
+      END
+      THERMAL RADIATION MODEL:
+        Option = None
+      END
+    END
+  END
+  DOMAIN: Fluid
+    Coord Frame = Coord 0
+    Domain Type = Fluid
+    Location = B4122
+    BOUNDARY: Default Fluid Solid Interface 1 Side 1 1
+      Boundary Type = INTERFACE
+      Location = F2908.4122
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Option = Conservative Interface Flux
+        END
+        MASS AND MOMENTUM:
+          Option = No Slip Wall
+        END
+        THERMAL RADIATION:
+          Diffuse Fraction = 1.
+          Emissivity = 0.75
+          Option = Opaque
+        END
+      END
+    END
+    BOUNDARY: Default Fluid Solid Interface Side 2
+      Boundary Type = INTERFACE
+      Location = \
+        F2915.4122,F2916.4122,F2919.4122,F2921.4122,F2922.4122,F2923.4122,F292\
+        6.4122,F2927.4122,F2928.4122,F2929.4122,F2930.4122,F2931.4122,F2932.41\
+        22,F2933.4122,F2934.4122,F2935.4122,F2936.4122,F2937.4122,F2938.4122,F\
+        2939.4122,F2940.4122,F2941.4122,F2942.4122,F2943.4122,F2944.4122,F2945\
+        .4122,F2946.4122,F2947.4122,F2948.4122,F2949.4122,F2950.4122,F2951.412\
+        2,F2952.4122,F2953.4122,F2954.4122,F2955.4122,F2956.4122,F2957.4122,F2\
+        958.4122,F2959.4122,F2960.4122,F2961.4122,F2962.4122,F2963.4122,F2964.\
+        4122,F2965.4122,F2966.4122,F2967.4122,F2968.4122,F2969.4122,F2970.4122\
+        ,F2971.4122,F2972.4122,F2973.4122,F2974.4122,F2975.4122,F2976.4122,F29\
+        77.4122,F2978.4122,F2979.4122,F2980.4122,F2981.4122,F2982.4122,F2983.4\
+        122,F2984.4122,F2985.4122,F2986.4122,F2987.4122,F2988.4122,F2989.4122,\
+        F2990.4122,F2991.4122,F2992.4122,F2993.4122,F2994.4122,F2995.4122,F299\
+        6.4122,F2997.4122,F2998.4122,F2999.4122,F3000.4122,F3001.4122,F3002.41\
+        22,F3003.4122,F3004.4122,F3005.4122,F3006.4122,F3007.4122,F3008.4122,F\
+        3009.4122,F3010.4122,F3011.4122,F3012.4122,F3013.4122,F3014.4122,F3015\
+        .4122,F3016.4122,F3017.4122,F3018.4122,F3019.4122,F3020.4122,F3021.412\
+        2,F3022.4122,F3023.4122,F3024.4122,F3025.4122,F3026.4122,F3027.4122,F3\
+        028.4122,F3029.4122,F3030.4122,F3031.4122,F3032.4122,F3033.4122,F3034.\
+        4122,F3035.4122,F3036.4122,F3037.4122,F3038.4122,F3039.4122,F3040.4122\
+        ,F3041.4122,F3042.4122,F3043.4122,F3044.4122,F3045.4122,F3046.4122,F30\
+        47.4122,F3048.4122,F3049.4122,F3050.4122,F3051.4122,F3052.4122,F3053.4\
+        122,F3054.4122,F3055.4122,F3056.4122,F3057.4122,F3058.4122,F3059.4122,\
+        F3060.4122,F3061.4122,F3062.4122,F3063.4122,F3064.4122,F3065.4122,F306\
+        6.4122,F3067.4122,F3068.4122,F3069.4122,F3070.4122,F3071.4122,F3072.41\
+        22,F3073.4122,F3074.4122,F3075.4122,F3076.4122,F3077.4122,F3078.4122,F\
+        3079.4122,F3080.4122,F3081.4122,F3082.4122,F3083.4122,F3084.4122,F3085\
+        .4122,F3086.4122,F3087.4122,F3088.4122,F3089.4122,F3090.4122,F3091.412\
+        2,F3092.4122,F3093.4122,F3094.4122,F3095.4122,F3096.4122,F3097.4122,F3\
+        098.4122,F3099.4122,F3100.4122,F3101.4122,F3102.4122,F3103.4122,F3104.\
+        4122,F3105.4122,F3106.4122,F3107.4122,F3108.4122,F3109.4122,F3110.4122\
+        ,F3111.4122,F3112.4122,F3113.4122,F3114.4122,F3115.4122,F3116.4122,F31\
+        17.4122,F3118.4122,F3119.4122,F3120.4122,F3121.4122,F3122.4122,F3123.4\
+        122,F3124.4122,F3125.4122,F3126.4122,F3127.4122,F3128.4122,F3129.4122,\
+        F3130.4122,F3131.4122,F3132.4122,F3133.4122,F3134.4122,F3135.4122,F313\
+        6.4122,F3137.4122,F3138.4122,F3139.4122,F3140.4122,F3141.4122,F3142.41\
+        22,F3143.4122,F3144.4122,F3145.4122,F3146.4122,F3147.4122,F3148.4122,F\
+        3149.4122,F3150.4122,F3151.4122,F3152.4122,F3153.4122,F3154.4122,F3155\
+        .4122,F3156.4122,F3157.4122,F3158.4122,F3159.4122,F3160.4122,F3161.412\
+        2,F3162.4122,F3163.4122,F3164.4122,F3165.4122,F3166.4122,F3167.4122,F3\
+        168.4122,F3169.4122,F3170.4122,F3171.4122,F3172.4122,F3173.4122,F3174.\
+        4122,F3175.4122,F3176.4122,F3177.4122,F3178.4122,F3179.4122,F3180.4122\
+        ,F3181.4122,F3182.4122,F3183.4122,F3184.4122,F3185.4122,F3186.4122,F31\
+        87.4122,F3188.4122,F3189.4122,F3190.4122,F3191.4122,F3192.4122,F3193.4\
+        122,F3194.4122,F3195.4122,F3196.4122,F3197.4122,F3198.4122,F3199.4122,\
+        F3200.4122,F3201.4122,F3202.4122,F3203.4122,F3204.4122,F3205.4122,F320\
+        6.4122,F3207.4122,F3208.4122,F3209.4122,F3210.4122,F3211.4122,F3212.41\
+        22,F3213.4122,F3214.4122,F3215.4122,F3216.4122,F3217.4122,F3218.4122,F\
+        3219.4122,F3220.4122,F3221.4122,F3222.4122,F3223.4122,F3224.4122,F3225\
+        .4122,F3226.4122,F3227.4122,F3315.4122,F3316.4122,F3317.4122,F3318.412\
+        2,F3319.4122,F3320.4122,F3321.4122,F3322.4122,F3323.4122,F3324.4122,F3\
+        325.4122,F3326.4122,F3327.4122,F3328.4122,F3329.4122,F3330.4122,F3331.\
+        4122,F3332.4122,F3333.4122,F3334.4122,F3335.4122,F3336.4122,F3337.4122\
+        ,F3338.4122,F3339.4122,F3340.4122,F3341.4122,F3342.4122,F3343.4122,F33\
+        44.4122,F3345.4122,F3346.4122,F3347.4122,F3348.4122,F3349.4122,F3350.4\
+        122,F3351.4122,F3352.4122,F3353.4122,F3354.4122,F3355.4122,F3356.4122,\
+        F3357.4122,F3358.4122,F3359.4122,F3360.4122,F3361.4122,F3362.4122,F336\
+        3.4122,F3364.4122,F3365.4122,F3366.4122,F3367.4122,F3368.4122,F3369.41\
+        22,F3370.4122,F3371.4122,F3372.4122,F3373.4122,F3374.4122,F3375.4122,F\
+        3376.4122,F3377.4122,F3378.4122,F3379.4122,F3380.4122,F3381.4122,F3382\
+        .4122,F3383.4122,F3384.4122,F3385.4122,F3386.4122,F3387.4122,F3388.412\
+        2,F3389.4122,F3390.4122,F3391.4122,F3392.4122,F3393.4122,F3394.4122,F3\
+        395.4122,F3396.4122,F3397.4122,F3398.4122,F3399.4122,F3400.4122,F3401.\
+        4122,F3402.4122,F3403.4122,F3404.4122,F3405.4122,F3406.4122,F3407.4122\
+        ,F3408.4122,F3409.4122,F3410.4122,F3411.4122,F3412.4122,F3413.4122,F34\
+        14.4122,F3415.4122,F3416.4122,F3417.4122,F3418.4122,F3419.4122,F3420.4\
+        122,F3421.4122,F3422.4122,F3423.4122,F3424.4122,F3425.4122,F3426.4122,\
+        F3427.4122,F3428.4122,F3429.4122,F3430.4122,F3431.4122,F3432.4122,F343\
+        3.4122,F3434.4122,F3435.4122,F3436.4122,F3437.4122,F3438.4122,F3439.41\
+        22,F3440.4122,F3441.4122,F3442.4122,F3443.4122,F3444.4122,F3445.4122,F\
+        3446.4122,F3447.4122,F3448.4122,F3449.4122,F3450.4122,F3451.4122,F3452\
+        .4122,F3453.4122,F3454.4122,F3455.4122,F3456.4122,F3457.4122,F3458.412\
+        2,F3459.4122,F3460.4122,F3461.4122,F3462.4122,F3463.4122,F3464.4122,F3\
+        465.4122,F3466.4122,F3467.4122,F3468.4122,F3469.4122,F3470.4122,F3471.\
+        4122,F3472.4122,F3473.4122,F3474.4122,F3475.4122,F3476.4122,F3477.4122\
+        ,F3478.4122,F3479.4122,F3480.4122,F3481.4122,F3482.4122,F3483.4122,F34\
+        84.4122,F3485.4122,F3486.4122,F3487.4122,F3488.4122,F3489.4122,F3490.4\
+        122,F3491.4122,F3492.4122,F3493.4122,F3494.4122,F3495.4122,F3496.4122,\
+        F3497.4122,F3498.4122,F3499.4122,F3500.4122,F3501.4122,F3502.4122,F350\
+        3.4122,F3504.4122,F3505.4122,F3506.4122,F3507.4122,F3508.4122,F3509.41\
+        22,F3510.4122,F3511.4122,F3512.4122,F3513.4122,F3514.4122,F3515.4122,F\
+        4019.4122,F4020.4122,F4021.4122,F4022.4122,F4023.4122,F4024.4122,F4025\
+        .4122,F4026.4122,F4027.4122,F4028.4122,F4029.4122,F4030.4122,F4031.412\
+        2,F4032.4122,F4033.4122,F4034.4122,F4035.4122,F4036.4122,F4037.4122,F4\
+        038.4122,F4039.4122,F4040.4122,F4041.4122,F4042.4122,F4043.4122,F4044.\
+        4122,F4045.4122,F4046.4122,F4047.4122,F4048.4122,F4049.4122,F4050.4122\
+        ,F4051.4122,F4052.4122,F4053.4122,F4054.4122,F4055.4122,F4056.4122,F40\
+        57.4122,F4058.4122,F4059.4122,F4060.4122,F4061.4122,F4062.4122,F4063.4\
+        122,F4064.4122,F4065.4122,F4066.4122,F4067.4122,F4068.4122,F4069.4122,\
+        F4070.4122,F4071.4122,F4072.4122,F4073.4122,F4074.4122,F4075.4122,F407\
+        6.4122,F4077.4122,F4078.4122,F4079.4122,F4080.4122,F4081.4122,F4082.41\
+        22,F4083.4122,F4084.4122,F4085.4122,F4086.4122,F4087.4122,F4088.4122,F\
+        4089.4122,F4090.4122,F4091.4122,F4092.4122,F4093.4122,F4094.4122,F4095\
+        .4122,F4096.4122,F4097.4122,F4098.4122,F4099.4122,F4100.4122,F4101.412\
+        2,F4103.4122,F4105.4122,F4106.4122,F4107.4122,F4108.4122,F4109.4122,F4\
+        110.4122,F4111.4122,F4112.4122,F4113.4122,F4114.4122,F4115.4122,F4116.\
+        4122,F4117.4122,F4118.4122,F4119.4122,F4120.4122,F4121.4122
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Option = Conservative Interface Flux
+        END
+        MASS AND MOMENTUM:
+          Option = No Slip Wall
+        END
+        THERMAL RADIATION:
+          Diffuse Fraction = 1.
+          Emissivity = 0.7
+          Option = Opaque
+        END
+      END
+    END
+    BOUNDARY: Fluid Default
+      Boundary Type = WALL
+      Location = F4102.4122,F4104.4122
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Option = Adiabatic
+        END
+        MASS AND MOMENTUM:
+          Option = No Slip Wall
+        END
+        THERMAL RADIATION:
+          Diffuse Fraction = 1.
+          Emissivity = 0.7
+          Option = Opaque
+        END
+      END
+    END
+    BOUNDARY: inlet
+      Boundary Type = INLET
+      Location = F4123.4122
+      BOUNDARY CONDITIONS:
+        FLOW REGIME:
+          Option = Subsonic
+        END
+        HEAT TRANSFER:
+          Option = Static Temperature
+          Static Temperature = 293.15 [K]
+        END
+        MASS AND MOMENTUM:
+          Normal Speed = 0.005307856 [m s^-1]
+          Option = Normal Speed
+        END
+        THERMAL RADIATION:
+          Option = Local Temperature
+        END
+      END
+    END
+    BOUNDARY: outlet
+      Boundary Type = OPENING
+      Location = F4124.4122
+      BOUNDARY CONDITIONS:
+        FLOW DIRECTION:
+          Option = Normal to Boundary Condition
+        END
+        FLOW REGIME:
+          Option = Subsonic
+        END
+        HEAT TRANSFER:
+          Option = Static Temperature
+          Static Temperature = 293.15 [K]
+        END
+        MASS AND MOMENTUM:
+          Option = Opening Pressure and Direction
+          Relative Pressure = 0 [Pa]
+        END
+        THERMAL RADIATION:
+          Option = Local Temperature
+        END
+      END
+    END
+    DOMAIN MODELS:
+      BUOYANCY MODEL:
+        Buoyancy Reference Density = 0.178 [kg m^-3]
+        Gravity X Component = 0 [m s^-2]
+        Gravity Y Component = -9.8 [m s^-2]
+        Gravity Z Component = 0 [m s^-2]
+        Option = Buoyant
+        BUOYANCY REFERENCE LOCATION:
+          Option = Automatic
+        END
+      END
+      DOMAIN MOTION:
+        Option = Stationary
+      END
+      MESH DEFORMATION:
+        Option = None
+      END
+      REFERENCE PRESSURE:
+        Reference Pressure = 1 [atm]
+      END
+    END
+    FLUID DEFINITION: Catalyst domain
+      Material = He
+      Option = Material Library
+      MORPHOLOGY:
+        Option = Continuous Fluid
+      END
+    END
+    FLUID MODELS:
+      COMBUSTION MODEL:
+        Option = None
+      END
+      HEAT TRANSFER MODEL:
+        Option = Thermal Energy
+      END
+      THERMAL RADIATION MODEL:
+        Option = Discrete Transfer
+        Radiation Transfer Mode = Surface to Surface
+        SCATTERING MODEL:
+          Option = None
+        END
+        SPECTRAL MODEL:
+          Option = Gray
+        END
+      END
+      TURBULENCE MODEL:
+        Option = Laminar
+      END
+    END
+    INITIALISATION:
+      Option = Automatic
+      INITIAL CONDITIONS:
+        Velocity Type = Cartesian
+        CARTESIAN VELOCITY COMPONENTS:
+          Option = Automatic
+        END
+        RADIATION INTENSITY:
+          Option = Automatic
+        END
+        STATIC PRESSURE:
+          Option = Automatic with Value
+          Relative Pressure = 500 [Pa]
+        END
+        TEMPERATURE:
+          Option = Automatic with Value
+          Temperature = 800 [K]
+        END
+      END
+    END
+  END
+  DOMAIN: Quartz
+    Coord Frame = Coord 0
+    Domain Type = Solid
+    Location = B2898
+    BOUNDARY: Default Fluid Solid Interface 1 Side 2 1
+      Boundary Type = INTERFACE
+      Location = F2908.2898
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Option = Conservative Interface Flux
+        END
+      END
+    END
+    BOUNDARY: Default Solid Solid Interface Side 2 1
+      Boundary Type = INTERFACE
+      Location = F2909.2898
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Option = Conservative Interface Flux
+        END
+      END
+    END
+    BOUNDARY: Quartz Default
+      Boundary Type = WALL
+      Location = F2899.2898,F2900.2898
+      BOUNDARY CONDITIONS:
+        HEAT TRANSFER:
+          Heat Transfer Coefficient = 5 [W m^-2 K^-1]
+          Option = Heat Transfer Coefficient
+          Outside Temperature = 293.15 [K]
+        END
+      END
+    END
+    DOMAIN MODELS:
+      DOMAIN MOTION:
+        Option = Stationary
+      END
+      MESH DEFORMATION:
+        Option = None
+      END
+    END
+    SOLID DEFINITION: Solid 1
+      Material = Quartz
+      Option = Material Library
+      MORPHOLOGY:
+        Option = Continuous Solid
+      END
+    END
+    SOLID MODELS:
+      HEAT TRANSFER MODEL:
+        Option = Thermal Energy
+      END
+      THERMAL RADIATION MODEL:
+        Option = None
+      END
+    END
+  END
+  DOMAIN INTERFACE: Default Fluid Solid Interface
+    Boundary List1 = Default Fluid Solid Interface Side 1
+    Boundary List2 = Default Fluid Solid Interface Side 2
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      HEAT TRANSFER:
+        Option = Conservative Interface Flux
+        HEAT TRANSFER INTERFACE MODEL:
+          Option = None
+        END
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+  DOMAIN INTERFACE: Default Fluid Solid Interface 1
+    Boundary List1 = Default Fluid Solid Interface 1 Side 1 1
+    Boundary List2 = Default Fluid Solid Interface 1 Side 2 1
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      HEAT TRANSFER:
+        Option = Conservative Interface Flux
+        HEAT TRANSFER INTERFACE MODEL:
+          Option = None
+        END
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+  DOMAIN INTERFACE: Default Solid Solid Interface
+    Boundary List1 = Default Solid Solid Interface Side 1
+    Boundary List2 = Default Solid Solid Interface Side 2 1
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      HEAT TRANSFER:
+        Option = Conservative Interface Flux
+        HEAT TRANSFER INTERFACE MODEL:
+          Option = None
+        END
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+  OUTPUT CONTROL:
+    RESULTS:
+      File Compression Level = Default
+      Option = Standard
+    END
+  END
+  SOLVER CONTROL:
+    ADVECTION SCHEME:
+      Option = High Resolution
+    END
+    CONVERGENCE CONTROL:
+      Length Scale Option = Conservative
+      Maximum Number of Iterations = 2000
+      Minimum Number of Iterations = 1
+      Solid Timescale Control = Auto Timescale
+      Timescale Control = Auto Timescale
+      Timescale Factor = 1.0
+    END
+    CONVERGENCE CRITERIA:
+      Conservation Target = 0.0003
+      Residual Target = 1E-5
+      Residual Type = RMS
+    END
+    DYNAMIC MODEL CONTROL:
+      Global Dynamic Model Control = Off
+    END
+    INTERRUPT CONTROL:
+      Option = Any Interrupt
+      CONVERGENCE CONDITIONS:
+        Option = Default Conditions
+      END
+    END
+  END
+END
+COMMAND FILE:
+  Version = 23.2
+END
