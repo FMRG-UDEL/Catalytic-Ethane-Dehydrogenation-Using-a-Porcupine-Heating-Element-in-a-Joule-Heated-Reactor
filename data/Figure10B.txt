@@ -1,8 +1,0 @@
-Catalyst-thickness Biot-number
-um
-20 0.7433
-35 1.266
-50 1.75
-65 2.238
-80 2.649
-135 4.072
