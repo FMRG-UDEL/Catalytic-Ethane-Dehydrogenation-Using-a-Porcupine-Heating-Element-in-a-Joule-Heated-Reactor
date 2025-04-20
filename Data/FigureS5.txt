@@ -1,0 +1,7 @@
+Velocity Richardson-number
+cms
+0.53 234 
+1.1 62.4 
+2.1 14.4 
+3.2 6.37 
+4.2 3.577 
