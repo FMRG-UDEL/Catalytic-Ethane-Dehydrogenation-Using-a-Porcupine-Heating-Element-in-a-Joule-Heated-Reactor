@@ -1,8 +1,0 @@
-Catalyst-thickness Overall-effectiveness-factor
-um
-20 0.995
-35 0.976
-50 0.9624
-65 0.952
-80 0.942
-135 0.917
